@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-wn64
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-jzuo-tenant/integ-app-odtj/hacbs-test-project-wn64@sha256:26a820378b12ce6bba5794033bc3a3848698f13cf359dccbade2df8a00e7fbda
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
